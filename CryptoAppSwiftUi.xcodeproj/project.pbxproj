@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18462872299AEA72001CD886 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18462871299AEA72001CD886 /* CoinModel.swift */; };
 		18EE7C9529871056003905DA /* CryptoAppSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE7C9429871056003905DA /* CryptoAppSwiftUiApp.swift */; };
 		18EE7C9D2987105B003905DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE7C9C2987105B003905DA /* Preview Assets.xcassets */; };
 		18EE7CA72987105B003905DA /* CryptoAppSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE7CA62987105B003905DA /* CryptoAppSwiftUiTests.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18462871299AEA72001CD886 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		18EE7C9129871056003905DA /* CryptoAppSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoAppSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EE7C9429871056003905DA /* CryptoAppSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppSwiftUiApp.swift; sourceTree = "<group>"; };
 		18EE7C9A2987105B003905DA /* CryptoAppSwiftUi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoAppSwiftUi.entitlements; sourceTree = "<group>"; };
@@ -78,10 +80,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18462870299AEA67001CD886 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18462871299AEA72001CD886 /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		18EE7C8829871056003905DA = {
 			isa = PBXGroup;
 			children = (
-				18EE7C9429871056003905DA /* CryptoAppSwiftUiApp.swift */,
 				18EE7C9329871056003905DA /* CryptoAppSwiftUi */,
 				18EE7CA52987105B003905DA /* CryptoAppSwiftUiTests */,
 				18EE7CAF2987105C003905DA /* CryptoAppSwiftUiUITests */,
@@ -102,6 +111,8 @@
 		18EE7C9329871056003905DA /* CryptoAppSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				18462870299AEA67001CD886 /* Models */,
+				18EE7C9429871056003905DA /* CryptoAppSwiftUiApp.swift */,
 				18EE7CD62987182B003905DA /* Core */,
 				18EE7CD329871114003905DA /* Extensions */,
 				18EE7CD1298710B7003905DA /* Assets.xcassets */,
@@ -328,6 +339,7 @@
 				18EE7CDF29871899003905DA /* HomeView.swift in Sources */,
 				18EE7CE129871C70003905DA /* CircleButtonAnimation.swift in Sources */,
 				18EE7CD529871125003905DA /* Colors+Extensions.swift in Sources */,
+				18462872299AEA72001CD886 /* CoinModel.swift in Sources */,
 				18EE7C9529871056003905DA /* CryptoAppSwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
